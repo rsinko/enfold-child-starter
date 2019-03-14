@@ -1,0 +1,55 @@
+{
+  "name": "enfold-child-starter",
+  "version": "1.0.0",
+  "description": "A simple Enfold child theme starter kit for WordPress Enfold theme by Kreisi (https://kriesi.at/themes/enfold-overview/) builded with Gulp, SASS, and js/sass lint for better coding",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "precommit": "gulp sass_lint && jshint -c .jshintrc --verbose src/js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rsinko/enfold-child-starter.git"
+  },
+  "author": "rsinko",
+  "keywords": [
+    "Enfold",
+    "Gulp",
+    "SASS",
+    "Babel",
+    "browser-sync",
+    "stylelint",
+    "jshint",
+    "Husky",
+    "imagemin",
+    "Static Pages",
+    "Starter kit",
+    "modular",
+    "BEM",
+    "SMACSS",
+    "OOCSS"
+  ],
+  "devDependencies": {
+    "autoprefixer": "^7.2.4",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.18.13",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^7.0.0",
+    "gulp-concat": "2.6.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-notify": "3.0.0",
+    "gulp-plumber": "1.1.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sass-lint": "^1.3.4",
+    "gulp-stylelint": "^6.0.0",
+    "gulp-uglify": "^3.0.0",
+    "husky": "0.14.3",
+    "jshint-stylish": "2.2.1",
+    "stylelint": "^8.4.0"
+  },
+  "dependencies": {
+    "jshint": "^2.9.5"
+  }
+}
